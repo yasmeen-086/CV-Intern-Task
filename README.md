@@ -48,11 +48,6 @@ python src/track_video.py --video data/video.mp4 --cfg results_after_cleaning_v1
 | `src/experiments.py` | trial list -> experiment log (kept/discarded automatically), dev-only grid search |
 | `src/evaluate.py` | IoU/Dice/precision/recall/boundary-F1/HD95, plots, failure taxonomy, worst-case panels |
 | `src/track_video.py` | per-frame segmentation + watershed splitting + Hungarian IoU tracker |
-| `Egg_Segmentation_and_Tracking_Report.docx` | internship assignment report |
+| `Egg_Segmentation_and_Tracking_Report.pdf` | internship assignment report |
 | `results_after_cleaning_v1/` | latest cleaned-reference experiment, evaluation, split, and tracking artifacts |
 
-## Notes
-- SAM masks are *pseudo*-ground-truth: metrics measure agreement with SAM, not with reality.
-- AI-tool usage is disclosed in the report.
-- A sample tracking output is included at `results_after_cleaning_v1/tracking_final2/tracked.mp4`.
-- The required public Google Drive video link has not been added yet; add it here after uploading the video to Drive.
