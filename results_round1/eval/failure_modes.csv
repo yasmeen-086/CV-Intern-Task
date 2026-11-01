@@ -1,0 +1,6 @@
+failure mode,count
+over-segmentation (leaks into hand/bg),8
+ok,4
+under-segmentation (part of egg missed),3
+mixed boundary error,2
+wrong object / miss,2

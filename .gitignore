@@ -1,0 +1,10 @@
+data/
+*.pth
+.venv/
+venv/
+__pycache__/
+*.mp4
+!.gitkeep
+!results_after_cleaning_v1/tracking_final2/tracked.mp4
+.DS_Store
+results/sam_gt/overlays/
