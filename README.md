@@ -180,5 +180,3 @@ The tracker segments each frame, optionally splits touching regions, then associ
 Useful video options include `--min_score`, `--max_area`, `--proc_side`, `--max_missed`, `--assoc_gate`, and `--no_split`. Run `python src/track_video.py --help` to see all available options.
 
 
-
-o: 
